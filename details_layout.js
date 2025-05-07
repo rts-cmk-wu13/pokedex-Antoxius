@@ -3,6 +3,7 @@ divElm.id = "root";
 
 divElm.innerHTML = `
     <header>
+        <img src="img/placeholder.png" alt="" srcset="">
         <span class="brand">Pokédex</span>
     </header>
     <main class="wrapper">

@@ -34,7 +34,7 @@ function fetchPokemon(offset) {
         .map(
           (pokemon) => `
         <article class="single__pokemon">
-        <p>#${getIdFromPokemon(pokemon.url)}</p>
+        <p class="poke__id">#${getIdFromPokemon(pokemon.url)}</p>
         <img loading="lazy" class="poke__img" src="${artworkUrl}/${getIdFromPokemon(
             pokemon.url
           )}.png" alt="${pokemon.name}">
