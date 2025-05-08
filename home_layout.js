@@ -2,7 +2,7 @@ let divElm = document.createElement("div");
 divElm.id = "root";
 
 divElm.innerHTML = `
-    <header>
+    <header class="flex--center">
         <img src="img/placeholder.png" alt="" srcset="">
         <span class="brand">Pokédex</span>
         <form action="detail.html">
